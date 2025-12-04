@@ -10,11 +10,7 @@
    - Wrist roll     -> servoWristR (used as orientation)
    - Gripper        -> servoGripper
 
-  Notes:
-  - Measure your link lengths (L1/L2/L3) and tune offsets/inversion flags.
-  - Test with no load and a proper external 5–6V supply for MG996 servos.
-  - This code contains a simple geometric inverse-kinematics solver for demonstration.
-*/
+  */
 
 #include <Servo.h>
 #include <math.h>
